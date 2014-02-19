@@ -1,0 +1,30 @@
+b.title {
+	color:#069;
+	font-size:50px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-indent:5px;
+}
+b.news {
+	color:#058;
+	font-size:70px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-indent:5px;
+}
+span.dropCap {
+    letter-spacing:0;   
+    text-transform:uppercase;   
+    color:#628fbe;   
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:3.5em;   
+    float:left;   
+    margin:0.13em 0.1em 0 0;   
+    line-height:0.7;   
+}
+div.padding {
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:20px;
+}
+hr.small {
+	margin-top:0px;
+}

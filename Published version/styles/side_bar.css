@@ -1,0 +1,70 @@
+td.odd_row {
+  background-color:#FFF;
+}
+td.even_row {
+  background-color:#DDD;
+}
+td.side {
+  background-image:url(http://www.granttimmerman.com/images/main/side_bar/side_bar.png);
+}
+tr, td, img {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin-left: 16px;
+  margin-bottom: 7px;
+  padding-left: 15px;
+}
+li {
+  text-align:left;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size:24px;
+  vertical-align:top;
+  margin-bottom: 4px;
+}
+li.odd_title {
+  color:#1A40D5;
+}
+li.even_title {
+  color:#5776EC;
+}
+
+a {
+  color: #1A40D5;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+
+/*
+a.odd_row:link {
+  color: #1A40D5;
+}
+a.odd_row:visited {
+  color: #1A40D5;
+}
+
+a.even_row:link {
+  color: #5776EC;
+}
+a.even_row:visited {
+  color: #5776EC;
+}
+
+
+a.odd_row:hover {
+  color: #2D389C;
+}
+a.odd_row:active {
+  color: #2D389C;
+}
+
+a.even_row:hover {
+  color: #5776EC;
+}
+a.even_row:active {
+  color: #5776EC;
+}
+*/

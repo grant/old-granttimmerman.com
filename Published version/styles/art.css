@@ -1,0 +1,33 @@
+div.center {
+  text-align:center;
+}
+div.padding {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+div.textpadding {
+  margin-left:20px;
+  margin-right:20px;
+}
+td.bg {
+  text-align:center;
+  vertical-align:middle;
+  background-color:#333;
+}
+b.title {
+  color:#069;
+  font-size:40px;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-indent:10px;
+}
+a.paganate {
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #FFF;
+  text-decoration:none;
+  font-size:18px;
+  vertical-align:middle;
+  margin-bottom: 4px;
+}
+a:hover {
+  text-decoration:underline;
+}

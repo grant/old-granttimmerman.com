@@ -1,0 +1,45 @@
+Website Rules:
+
+"Big, Bright, Bold"
+
+1. Design Design Design
+2. Color Scheme:
+  - Base color: Pure White
+  - Dominant color: Green, Green Tint, Green Shade: 60%
+  - Secondary color: Blue, Blue Tint, Blue Shade: 30%
+  - Tertiary color: Gold, Gold Shade: 10%
+3. Color Fill:
+  - Thin Bars of White
+  - All White can fill an image (ex. solid vector of a person, or a tree...)
+  - Color fills must have a gradient, but can have a solid fill for dividing content
+4. Shading
+  - Shading must be on all white vs color edges
+  - Strictly no shading otherwise
+5. Spacing
+  - All content is alligned and evenly spaced
+  - Negative and Positive spacing is EXTREMELY IMPORTANT; use as much as possible
+6. Blur
+  - Blurring must occur to signify movement (mostly for animations)
+7. Typography
+  - All San-Serif
+  - Title (ex. Description) should be in color and/or bold
+  - Type should be in black or white
+  - Type is justified to the left unless under an alone image, then centered
+  - Use of large numbers above titles is encouraged
+  - Use Drop Cap with large texts
+  - When moving type or icons, blink on and off quickly and decelerate blinking
+  - Blink numbers or words if in animation after movement
+8. Images
+  - Icons/Buttons have a color background with white fill
+9. Animation
+  - Use circle blasts (at a quick rate with blur) to focus on a subject
+  - Rule of Thirds
+10. Extras
+  - 90 Degree Corners should be cut 50% of the time
+11. Code
+  - require statements are relative
+  - all other links are absolute
+12. User Interaction
+  - Users get maximum reward/self-pleasure by earning a higher status
+  - Have leaderboard, highscore boards, points, badges, allocades, upgrades, and pop-up reward messages
+  - Link to other games

@@ -1,0 +1,51 @@
+div.padding {
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+}
+div.gamepadding {
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+div.paddingup {
+  margin-top:10px;
+}
+b.games {
+  color:#058;
+  font-size:70px;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-indent:5px;
+}
+td.lightgray {
+  text-align:center;
+  background-color:#666;
+}
+td.darkgray {
+  text-align:center;
+  background-color:#333;
+}
+td.tr {
+  background-image:url(http://www.granttimmerman.com/images/main/games/top_right.png);
+}
+td.tl {
+  background-image:url(http://www.granttimmerman.com/images/main/games/top_left.png);
+}
+td.br {
+  background-image:url(http://www.granttimmerman.com/images/main/games/bottom_right.png);
+}
+td.bl {
+  background-image:url(http://www.granttimmerman.com/images/main/games/bottom_left.png);
+}
+a.title {
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #FFF;
+  text-decoration:none;
+  font-size:34px;
+  vertical-align:top;
+  margin-bottom: 4px;
+}
+a:hover {
+  text-decoration:underline;
+}

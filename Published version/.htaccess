@@ -1,0 +1,53 @@
+###################
+# Error Documents #
+###################
+ErrorDocument 400 http://www.granttimmerman.com/index.php
+ErrorDocument 401 http://www.granttimmerman.com/about/forbidden.php
+ErrorDocument 402 http://www.granttimmerman.com/about/forbidden.php
+ErrorDocument 403 http://www.granttimmerman.com/about/forbidden.php
+ErrorDocument 404 http://www.granttimmerman.com/about/not_found.php
+ErrorDocument 500 http://www.granttimmerman.com/about/construction.php
+ErrorDocument 502 http://www.granttimmerman.com/about/construction.php
+ErrorDocument 503 http://www.granttimmerman.com/about/construction.php
+
+############
+# Security #
+############
+# Disallow Access
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+# Disable Viewing
+IndexIgnore *.mp4
+
+# Deny Access from Robot Site Rippers
+RewriteBase /
+RewriteCond %{HTTP_USER_AGENT} ^Anarchie [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ASPSeek [OR]
+RewriteCond %{HTTP_USER_AGENT} ^attach [OR]
+RewriteCond %{HTTP_USER_AGENT} ^autoemailspider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Xenu [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Zeus.*Webster [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Zeus
+RewriteRule ^.* - [F,L]
+
+####################
+# Usibility Tricks #
+####################
+
+# Recognize type of file
+AddType video/wmv .wmv
+
+# When linking a file using an anchor, these filetypes are automatically downloaded
+AddType application/octet-stream .avi
+AddType application/octet-stream .mpg
+AddType application/octet-stream .psd
+
+# Minimize Flicker in IE6
+ExpiresActive On
+ExpiresByType image/gif A2592000
+ExpiresByType image/jpg A2592000
+ExpiresByType image/png A2592000

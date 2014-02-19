@@ -1,0 +1,54 @@
+www.granttimmerman.com >
+  /index.php
+  /notFound.php
+  /forbidden.php
+  /construction.php
+  /favicon.ico
+  /.htaccess
+  /games/ >
+    /index.php
+    /Cell_Warfare.php
+    /Intrepid.php
+    /...
+  /about/ >
+    /index.php
+    /contact.php
+    /terms_of_use.php
+  /projects/ >
+    /index.php
+    /Video_Camera.php
+    /Mouse_Run.php
+    /...
+  /flash/ >
+    /pages/ >
+      /home.swf
+      /games.swf
+    /games/ >
+      /Cell_Warfare/ >
+        /Cell_Warfare.swf
+  /flashscripts/ >
+    /Cell_Warfare/ >
+      /highscore.php
+  /scripts/ >
+    /connect.php
+  /video/ >
+    /china/
+      /chinav1.wma
+  /images/ >
+    /flash/ >
+      /Cell_Warfare/ >
+        /thumbnail.png
+        /old_thumbnail.png
+        /large_thumbnail.png
+    /main/ >
+      /navigation/ >
+        /projects.png
+        /projectsHighlighted.png
+        /...
+      /logo/ >
+        /logo.png
+      /frame/ >
+        /sideBar.png
+        /...
+      /icons/ >
+        /news.png

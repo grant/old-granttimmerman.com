@@ -1,0 +1,22 @@
+td.flashbg {
+  background-color:#333;
+  text-align:center;
+}
+div.game {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+div.padding {
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+}
+div.text {
+  margin-top:10px;
+}
+b.title {
+  color:#069;
+  font-size:40px;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-indent:10px;
+}

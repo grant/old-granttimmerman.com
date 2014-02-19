@@ -1,0 +1,16 @@
+* {
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+div.footer_text {
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+div.footer {
+  padding-top:10px;
+  padding-left:40px;
+  padding-right:40px;
+}
+b.divider {
+  color:#CCC;
+}

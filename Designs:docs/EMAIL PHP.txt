@@ -1,0 +1,29 @@
+USE EMAIL FOR USERNAME
+<?php 
+// Set the form error check to false 
+$form_errors = array(); 
+//E-Mail address verifications 
+// Make Email a required field 
+$Email = trim($Email); 
+    if ($Email == "") { $form_errors["required_Email"] = true; } 
+    elseif (!eregi("^([a-zA-Z0-9._-])+@([a-zA-Z0-9._-])+\.([a-zA-Z0-9._-])([a-zA-Z0-9._-])+", $Email)) { $form_errors["Email_badformat"] = true; } 
+// Attempt to resolve the MX host 
+    else { 
+        list($Email, $domain) = split("@", $Email, 2); 
+            if (! checkdnsrr($domain, "MX")) { $form_errors["Email_badhost"] = true; } 
+            else { 
+                $array = array($Email, $domain); 
+                $Email = implode("@", $array); 
+                } 
+        } 
+// Check if there are any errors 
+if (count($form_errors)) 
+    { 
+// If the user left the e-mail field blank 
+    if ($form_errors["required_Email"]) {  } 
+// If the format of the e-mail address is incorrect 
+    elseif ($form_errors["Email_badformat"]) { include("emailProb.php"); exit; } 
+// If the mail server of the address the user provided could not be contacted 
+    elseif ($form_errors["Email_badhost"]) { include("emailProb.php"); exit; } 
+    } 
+?>

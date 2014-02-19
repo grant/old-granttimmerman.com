@@ -1,0 +1,18 @@
+div.error {
+  text-align: center;
+  margin-bottom: 10px;
+}
+div.return_link {
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  vertical-align:top;
+  color: #1A40D5;
+  font-size:40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}

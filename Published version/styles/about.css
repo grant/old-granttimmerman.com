@@ -1,0 +1,12 @@
+b.title {
+  color:#069;
+  font-size:60px;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+div.padding {
+  margin-left:20px;
+  margin-right:20px;
+}
+div.body {
+  text-indent:50px;
+}

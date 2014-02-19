@@ -1,0 +1,16 @@
+div.text {
+  vertical-align:top;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+b.title {
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  vertical-align:top;
+  color: #1A40D5;
+  font-size:40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

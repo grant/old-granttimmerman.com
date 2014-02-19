@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  outline: 0;
+}
+html {
+  height:100%;
+}
+body {
+  height:100%;
+}
+table {
+  border:0px;
+}
+tr, td, img {
+  border: 0;
+}
+.top {
+  vertical-align:top;
+}
+.shadowDownRight, .gradientShadowLeft, .gradientShadowRight {
+  background-repeat:no-repeat;
+}
+.shadowDownRight {
+  background-image: url("http://www.granttimmerman.com/images/main/frame/shadowDownRight.png");
+}
+.shadowDown {
+  background-image: url("http://www.granttimmerman.com/images/main/frame/shadowDown.png");
+  background-repeat:repeat-x;
+}
+.gradientDown {
+  background-image: url("http://www.granttimmerman.com/images/main/frame/gradientDown.png");
+  background-repeat:repeat-x;
+}
+.gradientShadowLeft {
+  background-image: url("http://www.granttimmerman.com/images/main/frame/gradientShadowLeft.png");
+  background-repeat:no-repeat;
+}
+.gradientShadowRight {
+  background-image: url("http://www.granttimmerman.com/images/main/frame/gradientShadowRight.png");
+  background-repeat:no-repeat;
+}
+.gradientShadowRightCut {
+  background-image: url("http://www.granttimmerman.com/images/main/frame/gradientShadowRightCut.png");
+  background-repeat:no-repeat;
+}
+.cut_corner {
+  background-image:url('http://www.granttimmerman.com/images/main/frame/cut_corner.png');
+  background-repeat:no-repeat;
+  background-position:right top;
+}
+img.news {
+  margin-left:20px;
+  margin-top:20px;
+  vertical-align:text-bottom;
+}
+p.left {
+  float:left;
+}
+p.right { 
+  float:right;
+  padding-right:20px;
+}

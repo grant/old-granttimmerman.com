@@ -1,0 +1,32 @@
+<html>
+<body>
+
+<script type="text/javascript">
+document.write("Testing...<br />");
+var maxNumber = 1000;
+for(var i = 0;i<maxNumber;i++){//all numbers to be tested
+  var prime = 1;
+  var divisibles = new Array();
+  for(var j = 2;j<i;j++){
+    if(i%j==0){
+      prime = 0;
+      divisibles.push(j);
+    }
+  }
+  if(prime==1){
+    document.write(i+" is prime.");
+  } else {
+    document.write(i+" is not prime.");
+    document.write(" It is divisible by: ");
+    for(var k = 0;k<divisibles.length-1;k++){
+      document.write(divisibles[k]+", ");
+    }
+    document.write(divisibles[divisibles.length-1]+".");
+  }
+  document.write("<br />");
+}
+
+</script>
+
+</body>
+</html>
