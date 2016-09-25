@@ -2,7 +2,7 @@ old-granttimmerman.com
 ======================
 
 #### The old version of granttimmerman.com, for history's sake.
- - Created in my early high school years.
+ - Created in my early high school years (2009-2011).
  - I'm glad these years of PHP are long gone
 
 ### Designs:docs
